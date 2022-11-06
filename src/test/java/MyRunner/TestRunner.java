@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features="C:\\Users\\singaraomaddineni\\Desktop\\Automation\\com.qa.gmail\\src\\test\\resources\\features\\launchMultipleBrowsers.feature",
+		features="C:\\Users\\singaraomaddineni\\Desktop\\Automation_Practice\\com.qa.gmail\\src\\test\\resources\\features\\launchMultipleBrowsers.feature",
 		glue= {"tests"},
 		monochrome=true)
 public class TestRunner {
